@@ -7,7 +7,7 @@ $theme: "vapor" !default;
 // Color system
 //
 
-$white: #fff !default;
+$white: #ffffff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -17,8 +17,7 @@ $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #170229 !default;
-$black: #000 !default;
-
+$black: #000000 !default;
 $blue: #1ba2f6 !default;
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
@@ -29,7 +28,6 @@ $yellow: #ffc107 !default;
 $green: #3cf281 !default;
 $teal: #3f81a2 !default;
 $cyan: #32fbe2 !default;
-
 $primary: $purple !default;
 $secondary: $pink !default;
 $success: $green !default;
@@ -38,7 +36,6 @@ $warning: $yellow !default;
 $danger: $red !default;
 $light: #44d9e8 !default;
 $dark: $gray-900 !default;
-
 $min-contrast-ratio: 1.2 !default;
 
 // Options
@@ -57,10 +54,8 @@ $link-color: $body-color !default;
 // Components
 
 $border-width: 0 !default;
-
 $border-radius: 0.15rem !default;
 $border-radius-sm: 0.05rem !default;
-
 $component-active-bg: $pink !default;
 
 // Fonts
@@ -68,46 +63,34 @@ $component-active-bg: $pink !default;
 // stylelint-disable-next-line value-keyword-case
 $font-family-sans-serif: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
   sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-
 $text-muted: rgba($body-color, 0.3) !default;
-
 $blockquote-footer-color: $text-muted !default;
 
 // Tables
 
 $table-color: $white !default;
-
 $table-bg-scale: 0 !default;
 
 // Forms
 
 $input-bg: lighten($body-bg, 10%) !default;
 $input-disabled-bg: lighten($body-bg, 5%) !default;
-
 $input-color: $white !default;
-
 $input-placeholder-color: rgba($white, 0.4) !default;
-
 $input-group-addon-bg: $input-disabled-bg !default;
-
 $form-range-track-bg: $input-bg !default;
-
 $form-range-thumb-disabled-bg: $purple !default;
 
 // Navs
 
 $nav-link-disabled-color: $text-muted !default;
-
 $nav-tabs-link-active-color: $component-active-bg !default;
 
 // Pagination
 
 $pagination-bg: transparent !default;
-
 $pagination-focus-bg: transparent !default;
-
 $pagination-hover-bg: transparent !default;
-
 $pagination-disabled-color: $text-muted !default;
 $pagination-disabled-bg: transparent !default;
 
@@ -125,16 +108,13 @@ $tooltip-opacity: 1 !default;
 // Popovers
 
 $popover-bg: $primary !default;
-
 $popover-header-color: $white !default;
-
 $popover-body-color: $white !default;
 
 // Toasts
 
 $toast-color: $white !default;
 $toast-background-color: $primary !default;
-
 $toast-header-color: $toast-color !default;
 $toast-header-background-color: $toast-background-color !default;
 
